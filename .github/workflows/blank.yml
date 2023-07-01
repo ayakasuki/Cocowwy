@@ -29,4 +29,4 @@ jobs:
           branch: main
           message: 'Generate Contribution Snake'
         env:
-          ACCESS_TOKEN: ${{ secrets.MY_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
