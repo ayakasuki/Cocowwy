@@ -28,4 +28,4 @@ jobs:
         with:
           branch: main
           message: 'Generate Contribution Snake'
-          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.MY_TOKEN }}
